@@ -26,3 +26,35 @@ describe('Variables can be a number', () => {
     });
 
 });
+
+describe('Arithmetic operators', () => {
+    test.skip('should return 25', () => {
+        /* Añade las líneas necesarias al test / Modifica la function sum */
+
+        expect(result).toBe(25);
+    });
+
+    test.skip('should return 30 after subtract', () => {
+        /* Añade las líneas necesarias al test / Modifica la function subtract */
+
+        expect(result).toBe(30);
+    });
+
+    test.skip('should return 15 after multiply', () => {
+        /* Añade las líneas necesarias al test / Modifica la function multiplication */
+        
+        expect(result).toBe(15);
+    });
+
+    test.skip('should return 25 after divide', () => {
+        /* Añade las líneas necesarias al test / Modifica la function divide */
+
+        expect(result).toBe(25);
+    });
+
+    test.skip('should return 0 after use modulus operator', () => {
+        /* Añade las líneas necesarias al test / Modifica la function checkIfNumbIsDivisibleByThree */
+
+        expect(result).toBe('Number is divisible by 3');
+    });
+});
