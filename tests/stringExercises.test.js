@@ -43,7 +43,7 @@ describe('Variables can be a string', () => {
         expect().toBe('RIDE HIM, COWBOY');
     });
 
-    test('should return "Hands Down"', () => {
+    test.skip('should return "Hands Down"', () => {
         /* Modifica la function removeWhiteSpace y añade las líneas necesarias al test */
 
         expect().toBe('Hands Down');
