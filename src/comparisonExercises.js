@@ -4,3 +4,10 @@ export function isJane()
     let name = 'Jane';
 
 }
+
+export function compareNumbers()
+{
+    /* La function debe devolver 10, obligatorio el uso del comparador === */
+    let number1 = '10';
+    let number2 = 10;
+}
