@@ -1,4 +1,4 @@
-import { isJane, compareNumbers, isGreaterThan10, isGreaterThan10AndEqualTo20 } from "../src/comparisonExercises";
+import { } from "../src/comparisonExercises";
 
 describe('Comparison Exercises', () => {
     test.skip('using == should be equal to Jane', () => {
@@ -21,7 +21,7 @@ describe('Comparison Exercises', () => {
 });
 
 describe('Logical comparison', () => {
-    test('should be greater than 10 and equal to 20', () => {
+    test.skip('should be greater than 10 and equal to 20', () => {
         /* Completa el test y modifica la function isGreaterThan10AndEqualTo20 */
 
         expect(result).toBeGreaterThan();
