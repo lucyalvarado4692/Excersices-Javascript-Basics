@@ -1,4 +1,4 @@
-import { isJane, compareNumbers } from "../src/comparisonExercises";
+import { isJane, compareNumbers, isGreaterThan10 } from "../src/comparisonExercises";
 
 describe('Comparison Exercises', () => {
     test.skip('using == should be equal to Jane', () => {
@@ -7,10 +7,16 @@ describe('Comparison Exercises', () => {
         expect(result).toEqual('Jane');
     });
 
-    test('using === should return 10', () => {
+    test.skip('using === should return 10', () => {
         /* Completa el test y modifica la function compareNumbers */
         
         expect(result).toEqual(10);
+    });
+
+    test('quantity are greater than 10 ', () => {
+        /* Completa el test y modifica la function isGreaterThan10 */
+
+        expect(result).toBeGreaterThan(10);
     });
 
     
