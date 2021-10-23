@@ -16,3 +16,8 @@ export function isGreaterThan10(quantity)
 {
     
 }
+
+export function isGreaterThan10AndEqualTo20(number)
+{
+    
+}
