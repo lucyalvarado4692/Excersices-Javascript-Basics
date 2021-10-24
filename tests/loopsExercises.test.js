@@ -1,4 +1,4 @@
-import { createNumberList } from "../src/loopsExercises";
+import { makePizza } from "../src/loopsExercises";
 
 describe('Loops', () => {
     test.skip('while loop, should return GO when count arrive to 0', () => {
@@ -15,8 +15,18 @@ describe('Loops', () => {
         expect().toHaveLength(); // comprueba que la longitud del array es de 10
     });
 
-    test.skip('for loop', () => {
-        
+    test('for loop', () => {
+        /* Con el bucle for crea una pizza de 4 quesos, creando un objeto. Ingredientes: masa, tomate, mozzarella, cheddar, gorgonzola, parmesano. Modifica la function makePizza */
+        let pizza = {
+            ingredient1: 'masa',
+            ingredient2: 'tomate',
+            ingredient3: 'mozzarella',
+            ingredient4: 'cheddar',
+            ingredient5: 'gorgonzola',
+            ingredient6: 'parmesano'
+        }
+
+        expect().toEqual(pizza);
     });
 
     test.skip('foreach loop', () => {
