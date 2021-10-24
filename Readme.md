@@ -1,4 +1,4 @@
-# Javascript Variables
+# Javascript Fundamentals Exercises with Jest
 
 Ejercicios con test para practicar con variables y testing con jest
 
