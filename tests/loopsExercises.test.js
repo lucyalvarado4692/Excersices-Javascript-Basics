@@ -15,7 +15,7 @@ describe('Loops', () => {
         expect().toHaveLength(); // comprueba que la longitud del array es de 10
     });
 
-    test('for loop', () => {
+    test.skip('for loop', () => {
         /* Con el bucle for crea una pizza de 4 quesos, creando un objeto. Ingredientes: masa, tomate, mozzarella, cheddar, gorgonzola, parmesano. Modifica la function makePizza */
         let pizza = {
             ingredient1: 'masa',
@@ -29,7 +29,12 @@ describe('Loops', () => {
         expect().toEqual(pizza);
     });
 
-    test.skip('foreach loop', () => {
+    test('foreach loop', () => {
+        /* Completa el test y modifica la function addSpanishInternationalPrefixes */
+        let phoneNumberList = ['+34-054060719','+34-029830776','+34-159949736','+34-663170151','+34-513407584'];
+
+        expect().toContain('+34-159949736');
+        expect().toEqual(expect.arrayContaining(phoneNumberList));;
         
     });
 });
