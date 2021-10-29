@@ -12,3 +12,14 @@ padre: 36, hijo: 7 -> 22
 padre: 55, hijo: 30 -> 5
 padre: 42, hijo: 21 -> 0
 */
+
+export function twiceAsOld(dadAge, sonAge)
+{
+    let ageDiff = dadAge - sonAge;
+
+    if(ageDiff > sonAge) {
+        return ageDiff - sonAge;  
+    }
+
+    return sonAge - ageDiff;
+}
