@@ -1,4 +1,3 @@
-import { } from "../src/comparisonExercises";
 
 describe('Comparison Exercises', () => {
     test.skip('using == should be equal to Jane', () => {

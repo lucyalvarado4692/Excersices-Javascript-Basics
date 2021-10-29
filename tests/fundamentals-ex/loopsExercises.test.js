@@ -1,4 +1,3 @@
-import { makePizza } from "../src/loopsExercises";
 
 describe('Loops', () => {
     test.skip('while loop, should return GO when count arrive to 0', () => {

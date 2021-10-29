@@ -1,4 +1,4 @@
-import { returnAString } from "../src/stringExercises.js";
+import { returnAString } from "../../src/fundamentals-ex/stringExercises";
 
 describe('Variables can be a string', () => {
     test.skip('should say Hello', () => {

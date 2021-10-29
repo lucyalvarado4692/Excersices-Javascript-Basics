@@ -1,4 +1,3 @@
-import {  } from "../src/numberExercises";
 
 describe('Variables can be a number', () => {
     test.skip('should be 1', () => {
