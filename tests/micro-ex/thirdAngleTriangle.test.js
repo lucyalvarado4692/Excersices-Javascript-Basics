@@ -1,3 +1,4 @@
+import { returnThirdAngle } from '../../src/micro-ex/thirdAngleTriangle';
 
 describe('Third angle of the triangle', () => {
     test('Sum of a triangle angles are 180 degree', () => {
