@@ -1,27 +1,32 @@
+export function returnHello()
+{
+
+}
+
 export function returnAString()
 {
     /* Completa la function */
-    return '';
+    
 }
 
 export function concatenateStrings()
 {
     /* Completa la function */
-    let firstWord = 'I';
-    let secondWord = 'Love';
+    const firstWord = 'I';
+    const secondWord = 'Love';
     
 }
 
 export function giveOneLetter()
 {
     /* Completa la function */
-    let dog = 'dog';
+    const dog = 'dog';
 }
 
 export function giveTheIndexOfWord()
 {
-    let wordToSearch = 'Butterfly';
-    let phrase = "Once upon a time!!!";
+    const wordToSearch = 'Butterfly';
+    const phrase = "Once upon a time!!!";
     
 }
 

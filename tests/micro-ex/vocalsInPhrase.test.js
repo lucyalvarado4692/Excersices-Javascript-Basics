@@ -1,11 +1,8 @@
 import { deleteDuplicity, getPhrase, getVocals, searchVocals } from "../../src/micro-ex/vocalsInPhrase";
-import { screen } from '@testing-library/dom';
-import userEvent from '@testing-library/user-event';
-import {  } from '@testing-library/jest-dom';
 
-describe('Vocals in phrase', () => {
+describe.skip('Vocals in phrase', () => {
 
-    test('should return la', () => {
+    test.skip('should return la', () => {
         document.body.innerHTML = /* html */
             `<div>
                 <input id="input-phrase" type="text" value="la">
@@ -16,7 +13,7 @@ describe('Vocals in phrase', () => {
         expect(result).toBe(phrase);
     });
 
-    test('should return a', () => {
+    test.skip('should return a', () => {
         document.body.innerHTML = /* html */
             `<div>
                 <input id="input-phrase" type="text" value="la">

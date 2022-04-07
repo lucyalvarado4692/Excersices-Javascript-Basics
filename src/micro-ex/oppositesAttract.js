@@ -8,6 +8,5 @@ Escribe una función que tome el número de pétalos de cada flor y devuelva ver
 
 export function isLove(petalsFlower1, petalsFlower2)
 {
-    let thisIsLove = (petalsFlower1 === petalsFlower2) ? false : true;
-    return thisIsLove;
+   
 }

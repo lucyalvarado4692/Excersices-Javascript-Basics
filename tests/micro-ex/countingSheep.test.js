@@ -1,7 +1,7 @@
 import { countSheeps } from "../../src/micro-ex/countingSheep";
 
 
-describe('Counting Sheep', () => {
+describe.skip('Counting Sheep', () => {
     test('should have 17 sheeps in total', () => {
         let list = [
             true,  true,  true,  false,
@@ -17,7 +17,7 @@ describe('Counting Sheep', () => {
         expect(result).toEqual('There are 17 sheep in total');
     });
 
-    test('should have only wolfs', () => {
+    test.skip('should have only wolfs', () => {
         let list = [
             false, false, false
         ]
