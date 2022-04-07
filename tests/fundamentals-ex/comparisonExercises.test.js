@@ -26,6 +26,7 @@ describe('Logical comparison', () => {
     test.skip('should be greater than 10 and equal to 20', () => {
         /* Completa el test y completa la function isGreaterThan10AndEqualTo20 */
         const numb = 20;
+        
         expect(result).toBeGreaterThan();
         expect(result).toEqual(20);
     });
