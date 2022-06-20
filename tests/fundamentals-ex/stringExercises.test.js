@@ -1,10 +1,11 @@
 import { returnAString, returnHello } from "../../src/fundamentals-ex/stringExercises";
 
 describe('Variables can be a string', () => {
-    test.skip('should say Hello', () => {
+    test('should say Hello', () => {
         /* agrega la línea que falta */
         const word = "Hello";
-        expect(returnHello()).toBe('Hello');
+        const hello = returnHello()
+        expect(hello).toBe(word);
     });
 
     test.skip('should return Hello World', () => {

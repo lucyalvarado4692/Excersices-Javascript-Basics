@@ -1,5 +1,7 @@
 export function returnHello()
 {
+    const word= "Hello"
+    return(word)
 
 }
 
