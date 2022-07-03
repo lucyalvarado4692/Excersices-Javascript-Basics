@@ -1,7 +1,7 @@
-import { returnAString, returnHello } from "../../src/fundamentals-ex/stringExercises";
+import { giveOneLetter, returnAString, returnHello } from "../../src/fundamentals-ex/stringExercises";
 
 describe('Variables can be a string', () => {
-    test('should say Hello', () => {
+    test.skip('should say Hello', () => {
         /* agrega la línea que falta */
         const word = "Hello";
         const hello = returnHello()
@@ -22,8 +22,13 @@ describe('Variables can be a string', () => {
 
     test.skip('should return letter g', () => {
         /* Añade las líneas necesarias al test / Modifica la function giveOneLetter para que devuelva la letra g de la variable configurada */
-        
-        expect().toBe('g');
+        //Given
+        const animal= "dog"
+        const letterg= "g"
+        //when
+        const letter= giveOneLetter(animal)
+        //then
+        expect(letter).toBe(letterg);
     });
 
     test.skip('should return -1', () => {

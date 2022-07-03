@@ -19,10 +19,11 @@ export function concatenateStrings()
     
 }
 
-export function giveOneLetter()
+export function giveOneLetter(animal)
 {
     /* Completa la function */
-    const dog = 'dog';
+    const lastLetter= animal.charAt(animal.lenght-1);
+    return lastLetter;
 }
 
 export function giveTheIndexOfWord()
